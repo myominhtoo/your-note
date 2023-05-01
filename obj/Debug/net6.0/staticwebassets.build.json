@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "YQMzVMLMWenSdvO4lwI9hPtsWGkPxuDO006sBqG5SSE=",
+  "Source": "DailyNote",
+  "BasePath": "_content/DailyNote",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DailyNote\\wwwroot",
+      "Source": "DailyNote",
+      "ContentRoot": "E:\\datas\\learning\\csharp\\DailyNote\\wwwroot\\",
+      "BasePath": "_content/DailyNote",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
