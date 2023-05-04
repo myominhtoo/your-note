@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace DailyNote.Controllers
+namespace DailyNote.Controllers.Note
 {
-    public class TestController : Controller
+    public class NoteController : Controller
     {
         public IActionResult Index()
         {

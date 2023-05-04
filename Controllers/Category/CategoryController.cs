@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace DailyNote.Controllers
+namespace DailyNote.Controllers.Category
 {
-    public class UserController : Controller
+    public class CategoryController : Controller
     {
         public IActionResult Index()
         {
