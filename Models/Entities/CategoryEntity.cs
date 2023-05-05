@@ -1,8 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DailyNote.Models.Entities
 {
-    public class Category
+    [Table(name:"Categories")]
+    public class CategoryEntity
     {
         [Key]
         public int Id { get; set; }
@@ -16,9 +18,9 @@ namespace DailyNote.Models.Entities
 
         public bool IsDeleted { get; set; } = false;
 
-        public User? User { get; set; } = null;
+        public UserEntity? User { get; set; } = null;
 
-        public List<Note> Notes { get; set; }
+        public List<NoteEntity> Notes { get; set; }
 
     }
 }

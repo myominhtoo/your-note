@@ -1,1 +1,1 @@
-{"ContentRoots":["E:\\datas\\learning\\csharp\\DailyNote\\wwwroot\\"],"Root":{"Children":null,"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}
+{"ContentRoots":["E:\\datas\\learning\\csharp\\DailyNote\\wwwroot\\"],"Root":{"Children":{"package-lock.json":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"package-lock.json"},"Patterns":null},"package.json":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"package.json"},"Patterns":null}},"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}

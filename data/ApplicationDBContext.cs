@@ -10,8 +10,8 @@ namespace DailyNote.data
             
         }
 
-        public DbSet<User> User { get; set; }
+        public DbSet<UserEntity> User { get; set; }
 
-        public DbSet<Category> Category { get; set; }
+        public DbSet<CategoryEntity> Category { get; set; }
     }
 }

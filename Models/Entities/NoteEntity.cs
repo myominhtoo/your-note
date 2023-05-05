@@ -1,8 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DailyNote.Models.Entities
 {
-    public class Note
+    [Table(name:"Notes")]
+    public class NoteEntity
     {
 
         [Key]
@@ -23,7 +25,7 @@ namespace DailyNote.Models.Entities
         public DateTime? UpdatedDate { get; set; } = null;
 
 
-        public Category Category { get; set; }
+        public CategoryEntity Category { get; set; }
 
     }
 }

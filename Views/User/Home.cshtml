@@ -1,0 +1,19 @@
+﻿@*
+    Index View of User
+*@
+
+
+@if ( TempData["message"] != null)
+{
+    <script>
+          swal({
+              text : '@TempData["message"]',
+              icon : "success"
+          })
+    </script>
+}
+
+<h1> I am home of user</h1>
+
+<h3>@User.Identity?.Name</h3>
+

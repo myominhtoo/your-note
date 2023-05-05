@@ -4,7 +4,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DailyNote.Models.Entities
 {
-    public class User
+    [Table(name:"Users")]
+    public class UserEntity
     {
         [Key]
         public int Id { get; set; }
@@ -26,7 +27,7 @@ namespace DailyNote.Models.Entities
 
         public DateTime? UpdatedDate { get; set; } = null;
 
-        public ICollection<Category>? Categories { get; set; } = null;
+        public ICollection<CategoryEntity>? Categories { get; set; } = null;
 
     }
 }
